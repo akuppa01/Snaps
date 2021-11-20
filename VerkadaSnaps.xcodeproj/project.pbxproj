@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4081E5A92748BD9C00FDC6D2 /* ImageDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081E5A82748BD9C00FDC6D2 /* ImageDetailsVC.swift */; };
+		4081E5AB2748D07800FDC6D2 /* FullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081E5AA2748D07800FDC6D2 /* FullScreenVC.swift */; };
 		40B2BD6927484BD3004EACAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2BD6827484BD3004EACAB /* AppDelegate.swift */; };
 		40B2BD6B27484BD3004EACAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2BD6A27484BD3004EACAB /* SceneDelegate.swift */; };
 		40B2BD6D27484BD3004EACAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2BD6C27484BD3004EACAB /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4081E5A82748BD9C00FDC6D2 /* ImageDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsVC.swift; sourceTree = "<group>"; };
+		4081E5AA2748D07800FDC6D2 /* FullScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenVC.swift; sourceTree = "<group>"; };
 		40B2BD6527484BD3004EACAB /* VerkadaSnaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerkadaSnaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B2BD6827484BD3004EACAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40B2BD6A27484BD3004EACAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				40B2BD7627484BD7004EACAB /* Info.plist */,
 				40B2BD7C27485164004EACAB /* PhotoFetcher.swift */,
 				40B2BD8227485D2C004EACAB /* GalleryCVCell.swift */,
+				4081E5A82748BD9C00FDC6D2 /* ImageDetailsVC.swift */,
+				4081E5AA2748D07800FDC6D2 /* FullScreenVC.swift */,
 			);
 			path = VerkadaSnaps;
 			sourceTree = "<group>";
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4081E5AB2748D07800FDC6D2 /* FullScreenVC.swift in Sources */,
 				40B2BD8327485D2C004EACAB /* GalleryCVCell.swift in Sources */,
 				40B2BD7D27485164004EACAB /* PhotoFetcher.swift in Sources */,
 				40B2BD6D27484BD3004EACAB /* ViewController.swift in Sources */,
+				4081E5A92748BD9C00FDC6D2 /* ImageDetailsVC.swift in Sources */,
 				40B2BD6927484BD3004EACAB /* AppDelegate.swift in Sources */,
 				40B2BD6B27484BD3004EACAB /* SceneDelegate.swift in Sources */,
 			);

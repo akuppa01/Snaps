@@ -55,23 +55,21 @@ class PhotoFetcher {
     //loads the photos into imageArray and returns it; all done asynchronously (trying to)
     func loadPhotos() {//-> [UIImage] {
 //        DispatchQueue.global().async {
+            var counter = 0
             for link in self.imageURLs {
-//                print("gg")
+//                print(counter)
+//                print(link)
                 let data = try? Data(contentsOf: link)
 //                DispatchQueue.main.async {
                     self.imageArray.append(UIImage(data: data!)!)
 //                    print("hhhh")
 //                }
+                counter+=1
             }
 //        }
 //        return imageArray
     }
 
-    
-    
-
-    
-   
     
 //    func imageDimensions(url: String) -> String{
 //
@@ -94,13 +92,8 @@ class PhotoFetcher {
 //        return "None"
 //    }
     
-    enum NetworkError: Error {
-        case gg
-    }
-    
 
     
-    
-    
+
     
 }
